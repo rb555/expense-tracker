@@ -25,9 +25,12 @@ cd expense-tracker
 ### Run the application using Maven:
 mvn spring-boot:run
 ### Access the app in your browser at http://localhost:8080
+![webapp_java_springboot](https://github.com/user-attachments/assets/2f92e80c-c4d8-4484-922f-d8e435184629)
+
 
 ## Testing with H2 Database
 The app is configured to use the H2 in-memory database for testing purposes. You can access the H2 console to view the database schema and data:
+![webapp_h2_testing](https://github.com/user-attachments/assets/60b12c80-270a-4687-99dc-8d339430228d)
 
  - H2 Console: http://localhost:8080/h2-console
  - JDBC URL: jdbc:h2:mem:testdb
