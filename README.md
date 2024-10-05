@@ -30,6 +30,7 @@ mvn spring-boot:run
 
 ## Testing with H2 Database
 The app is configured to use the H2 in-memory database for testing purposes. You can access the H2 console to view the database schema and data:
+
 ![webapp_h2_testing](https://github.com/user-attachments/assets/60b12c80-270a-4687-99dc-8d339430228d)
 
  - H2 Console: http://localhost:8080/h2-console
